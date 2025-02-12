@@ -2,6 +2,31 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 
+# Install Node.js and npm
+```bash
+node -v
+npm -v
+```
+# Clone the Project:
+
+```bash
+git clone https://github.com/your-username/employee-management-system.git
+cd employee-management-system
+```
+
+# Create a New Angular Project
+
+```bash
+ng new employee-management-system
+cd employee-management-system
+```
+
+# Install Project Dependencies
+
+```bash
+npm install
+```
+
 ## Development server
 
 To start a local development server, run:
@@ -9,7 +34,7 @@ To start a local development server, run:
 ```bash
 ng serve
 ```
-
+# Configure Firebase
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
@@ -36,6 +61,13 @@ ng build
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
+# Deploy to a Hosting Platform
+```bash
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+```
 ## Running unit tests
 
 To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
